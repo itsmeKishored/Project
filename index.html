@@ -9,13 +9,14 @@
 	<script type="text/javascript">
 
 
-function myFunctuon(){
+function myFunction(){
 
 	var dot =document.getElementById("dot");
 	var readmore=document.getElementById("readmore");
 	var btn=document.getElementById("btn");
 
-	if (dot.style.display === "none") {
+	if (dot.style.display === "none")
+	 {
     dot.style.display = "inline";
     btn.innerHTML = "Read more"; 
     readmore.style.display = "none";
@@ -25,7 +26,42 @@ function myFunctuon(){
     btn.innerHTML = "Read less"; 
     readmore.style.display = "inline";
   }
+}
+function myFunction1(){
 
+	var dot1 =document.getElementById("dot1");
+	var readmore1=document.getElementById("readmore1");
+	var btn1=document.getElementById("btn1");
+
+	if (dot1.style.display === "none")
+	 {
+    dot1.style.display = "inline";
+    btn1.innerHTML = "Read more"; 
+    readmore1.style.display = "none";
+  	} 
+  else {
+    dot1.style.display = "none";
+    btn1.innerHTML = "Read less"; 
+    readmore1.style.display = "inline";
+  }
+}
+function myFunction2(){
+
+	var dot2 =document.getElementById("dot2");
+	var readmore2=document.getElementById("readmore2");
+	var btn2=document.getElementById("btn2");
+
+	if (dot2.style.display === "none")
+	 {
+    dot2.style.display = "inline";
+    btn2.innerHTML = "Read more"; 
+    readmore2.style.display = "none";
+  	} 
+  else {
+    dot2.style.display = "none";
+    btn2.innerHTML = "Read less"; 
+    readmore2.style.display = "inline";
+  }
 }
 
 		
@@ -444,21 +480,21 @@ built-in automation and integration.</p>
 				<p style="margin: 10px;">
 					<img src="img4.jpeg"width="100%">
 				Kongu Engineering College is an autonomous engineering college located at Perundurai, Erode district in the state of Tamil Nadu in India.
-				<span id="dot">...</span> 
-				<span id ="readmore" style="display:none;">It is affiliated to Anna University and accredited 'A++' Grade by National Assessment and Accreditation Counci</span></p>
+				<span id="dot1">...</span> 
+				<span id ="readmore1" style="display:none;">It is affiliated to Anna University and accredited 'A++' Grade by National Assessment and Accreditation Council</span></p>
 
 				<button  class="getstartedfree"
-				style="width:150px;height: 40px;margin-left: 20px;" onclick="myFunction()" id="btn">Read more</button>
+				style="width:150px;height: 40px;margin-left: 20px;" onclick="myFunction1()" id="btn1">Read more</button>
 			</div>
 			<div class="body9aa">
 				<p style="margin: 10px;">
 					<img src="img4.jpeg"width="100%">
 				Kongu Engineering College is an autonomous engineering college located at Perundurai, Erode district in the state of Tamil Nadu in India.
-				<span id="dot">...</span> 
-				<span id ="readmore" style="display:none;">It is affiliated to Anna University and accredited 'A++' Grade by National Assessment and Accreditation Counci</span></p>
+				<span id="dot2">...</span> 
+				<span id ="readmore2" style="display:none;">It is affiliated to Anna University and accredited 'A++' Grade by National Assessment and Accreditation Counci</span></p>
 
 				<button  class="getstartedfree"
-				style="width:150px;height: 40px;margin-left: 20px;" onclick="myFunction()" id="btn">Read more</button>
+				style="width:150px;height: 40px;margin-left: 20px;" onclick="myFunction2()" id="btn2">Read more</button>
 			</div>
 	</div>
 
